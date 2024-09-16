@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  text-decoration: none;
+  font-weight: 300;
+  /* width: 100vw; */
+  /* height: 4000px; */
+}
+
+/* Header */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.5rem 7%;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 9999;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar .logo img {
+  width: 4rem;
+  height: auto;
+}
+
+.navbar .logo ul {
+  list-style-type: none;
+  color: #000;
+}
+
+.navbar .logo ul li span {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.navbar .logo ul li {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.navbar .navbar-nav a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-left: 1rem;
+  color: #000;
+}
+
+.navbar .navbar-nav a:hover {
+  color: #727272;
+}
+
+.navbar .menu {
+  display: none;
+  text-decoration: none;
+}
+
+/* Header */
+
+/* artikel */
+.art {
+  padding: 6rem 10% 0;
+}
+
+.art h1 {
+  font-size: 2rem;
+}
+
+.art > p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-top: 0.8rem;
+}
+
+.art .art-text {
+  margin-left: 1.5rem;
+}
+
+.art .art-text h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.art .art-text p,
+.art .art-text ul li {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-top: 0.8rem;
+}
+
+.art .art-text ul li {
+  margin-left: 1.5rem;
+}
+
+.art .art-text .image-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.8rem;
+  justify-content: center;
+}
+
+.art .art-text .image-item img {
+  width: 15rem;
+}
+
+.art .publis {
+  margin: 5rem 0 2rem;
+}
+
+.art .publis p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* artikel */
+
+/* footer */
+footer {
+  left: 0;
+  right: 0;
+  background-color: #abb5bc;
+}
+
+footer .fot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 10%;
+}
+
+footer .desc-fot {
+  margin: 1rem;
+}
+
+footer .desc-fot .logos a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+footer .desc-fot .logos a img {
+  width: 3rem;
+  height: auto;
+}
+
+footer .desc-fot .logos a ul {
+  list-style: none;
+}
+
+footer .desc-fot .logos a ul li span {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+footer .desc-fot .logos a ul li {
+  font-size: 0.65rem;
+  font-weight: 400;
+}
+
+footer .desc-fot p {
+  max-width: 20rem;
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+}
+
+footer .desc-fot p a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer .desc-fot p a i {
+  padding-right: 0.3rem;
+}
+
+footer .desc-fot p a:hover {
+  color: #00ff99;
+}
+
+footer .desc-fot .social a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8rem;
+}
+
+footer .desc-fot .social a i {
+  padding-right: 0.3rem;
+}
+
+footer .desc-fot .social a:hover {
+  color: #00ff99;
+}
+
+footer .desc-fot .navigasi h3 {
+  font-size: 0.9rem;
+}
+
+footer .desc-fot .navigasi ul {
+  list-style: none;
+}
+
+footer .desc-fot .navigasi ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8rem;
+}
+
+footer .desc-fot .navigasi ul li a:hover {
+  color: #00ff99;
+}
+
+footer .desc-fot .maps-fot iframe {
+  width: 25rem;
+  height: 15.625rem;
+}
+
+footer .created {
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+footer .created p {
+  font-size: 0.7rem;
+  color: #000;
+}
+
+footer .created p a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* footer */
+
+/* Responsive */
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* tablet */
+@media (max-width: 860px) {
+  html {
+    font-size: 65%;
+  }
+
+  .navbar .menu {
+    display: inline-block;
+  }
+
+  .navbar .navbar-menu a {
+    color: #fff;
+  }
+
+  .navbar .navbar-nav {
+    position: absolute;
+    right: -100%;
+    top: 100%;
+    background-color: #3e3e3e;
+    width: 30rem;
+    height: 100vh;
+    transition: 300ms;
+  }
+
+  .navbar .navbar-nav.active {
+    right: 0;
+  }
+
+  .navbar .navbar-nav a {
+    color: #ffffff;
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+/* Mobile small Phone */
+@media (max-width: 375px) {
+  html {
+    font-size: 45%;
+  }
+}

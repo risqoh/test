@@ -1,0 +1,164 @@
+/* Responsive */
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+
+  .slider .list .item .detail {
+    flex-wrap: wrap;
+  }
+}
+
+/* tablet */
+@media (max-width: 860px) {
+  html {
+    font-size: 65%;
+  }
+
+  .navbar .menu {
+    display: inline-block;
+  }
+
+  .navbar .navbar-menu a {
+    color: #fff;
+  }
+
+  .navbar .navbar-nav {
+    position: absolute;
+    right: -100%;
+    top: 100%;
+    background-color: #3e3e3e;
+    width: 30rem;
+    height: 100vh;
+    transition: 300ms;
+  }
+
+  .navbar .navbar-nav.active {
+    right: 0;
+  }
+
+  .navbar .navbar-nav a {
+    color: #ffffff;
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  header .icon-wa {
+    left: 92%;
+  }
+
+  .hub-kami .row {
+    flex-wrap: wrap;
+  }
+
+  .hub-kami .row .map {
+    height: 30rem;
+  }
+
+  .hub-kami .row form {
+    padding-top: 0;
+  }
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+
+  header .icon-wa {
+    left: 89%;
+  }
+}
+
+/* Mobile small Phone */
+@media (max-width: 375px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+/* hero animated */
+.slider .list .item:nth-child(1) {
+  z-index: 1;
+}
+
+/* action next */
+.slider.next .list .item:nth-child(1) {
+  transform: translateX(100vw);
+  animation: nextSlide 1s linear 1 forwards;
+}
+
+@keyframes nextSlide {
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* action prev */
+.slider.prev .list .item:nth-child(2) {
+  z-index: 2;
+}
+
+.slider.prev .list .item:nth-child(2) {
+  transform: translateX(0);
+  animation: prevSlide 1s linear 1 forwards;
+}
+
+@keyframes prevSlide {
+  to {
+    transform: translateX(100vw);
+  }
+}
+
+.slider.next .arrows,
+.slider.prev .arrows {
+  pointer-events: none;
+}
+
+/* about animanition border */
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes spin {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
+}
+
+/* about next slider */
+.about .slide.sel .slide-list .slide-item {
+  transform: translateX(18rem);
+  animation: selSlide 500ms alternate ease-in-out forwards;
+}
+
+@keyframes selSlide {
+  to {
+    transform: translateX(0);
+  }
+}
+
+.about .slide.seb .slide-list .slide-item {
+  transform: translateX(-18rem);
+  animation: sebSlide 500ms alternate ease-in-out forwards;
+}
+
+@keyframes sebSlide {
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slide.sel,
+.slide.seb {
+  pointer-events: none;
+}

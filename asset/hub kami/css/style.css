@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  text-decoration: none;
+  font-weight: 300;
+  /* width: 100vw; */
+  /* height: 4000px; */
+}
+
+/* Header */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.5rem 7%;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 9999;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar .logo img {
+  width: 4rem;
+  height: auto;
+}
+
+.navbar .logo ul {
+  list-style-type: none;
+  color: #000;
+}
+
+.navbar .logo ul li span {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.navbar .logo ul li {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.navbar .navbar-nav a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-left: 1rem;
+  color: #000;
+}
+
+.navbar .navbar-nav a:hover {
+  color: #727272;
+}
+
+.navbar .menu {
+  display: none;
+  text-decoration: none;
+}
+
+/* Header */
+
+/* form kontak */
+
+.hub-kami {
+  margin: 8rem 0 2rem;
+  padding: 0 7%;
+  text-align: center;
+}
+
+.hub-kami .row {
+  display: flex;
+  margin-top: 1rem;
+  background-color: #222;
+}
+
+.hub-kami .row .map {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hub-kami .row form {
+  flex: 1 1 45rem;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.hub-kami .row form .input-grup {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  padding-left: 2rem;
+}
+
+.hub-kami .row form .input-grup i {
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+
+.hub-kami .row form .input-grup input {
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.4rem;
+  background: none;
+  border: none;
+  color: #ffffff;
+}
+
+.hub-kami .row form .btn-form {
+  display: inline-block;
+  margin-top: 3rem;
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  background-color: #f9da5a;
+}
+
+.hub-kami .row form .btn-form:hover {
+  background-color: #389f81;
+  color: #ffffff;
+}
+
+/* form kontak */
+
+/* footer */
+footer {
+  left: 0;
+  right: 0;
+  background-color: #abb5bc;
+}
+
+footer .fot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 10%;
+}
+
+footer .desc-fot {
+  margin: 1rem;
+}
+
+footer .desc-fot .logos a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+footer .desc-fot .logos a img {
+  width: 3rem;
+  height: auto;
+}
+
+footer .desc-fot .logos a ul {
+  list-style: none;
+}
+
+footer .desc-fot .logos a ul li span {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+footer .desc-fot .logos a ul li {
+  font-size: 0.65rem;
+  font-weight: 400;
+}
+
+footer .desc-fot p {
+  max-width: 20rem;
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+}
+
+footer .desc-fot p a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer .desc-fot p a i {
+  padding-right: 0.3rem;
+}
+
+footer .desc-fot p a:hover {
+  color: #00ff99;
+}
+
+footer .desc-fot .social a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8rem;
+}
+
+footer .desc-fot .social a i {
+  padding-right: 0.3rem;
+}
+
+footer .desc-fot .social a:hover {
+  color: #00ff99;
+}
+
+footer .desc-fot .navigasi h3 {
+  font-size: 0.9rem;
+}
+
+footer .desc-fot .navigasi ul {
+  list-style: none;
+}
+
+footer .desc-fot .navigasi ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8rem;
+}
+
+footer .desc-fot .navigasi ul li a:hover {
+  color: #00ff99;
+}
+
+footer .desc-fot .maps-fot iframe {
+  width: 25rem;
+  height: 15.625rem;
+}
+
+footer .created {
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+footer .created p {
+  font-size: 0.7rem;
+  color: #000;
+}
+
+footer .created p a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* footer */
