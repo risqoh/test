@@ -77,7 +77,12 @@
 /* Mobile small Phone */
 @media (max-width: 375px) {
   html {
-    font-size: 45%;
+    font-size: 55%;
+  }
+
+  .slider .list .item .detail {
+    bottom: 20%;
+    align-items: center;
   }
 }
 
