@@ -85,7 +85,16 @@
   }
 
   .slider .list .item .detail {
-    bottom: 21%;
+    bottom: 5%;
+  }
+
+  .slider .list .item .detail .image .flex-item {
+    flex-wrap: wrap;
+  }
+
+  .slider .list .item .detail .image .flex-item img {
+    margin: auto;
+    margin-top: 1rem;
   }
 }
 
