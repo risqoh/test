@@ -72,6 +72,10 @@
   header .icon-wa {
     left: 89%;
   }
+
+  .slider .list .item .detail {
+    bottom: 25%;
+  }
 }
 
 /* Mobile small Phone */
@@ -81,8 +85,7 @@
   }
 
   .slider .list .item .detail {
-    bottom: 20%;
-    align-items: center;
+    bottom: 16%;
   }
 }
 
