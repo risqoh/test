@@ -235,6 +235,7 @@ header .icon-wa a:hover {
 .content-judul {
   margin-top: 5rem;
   text-align: center;
+  padding: 0 7%;
 }
 
 .content-judul h2 {
@@ -284,6 +285,7 @@ header .icon-wa a:hover {
 .card .item h3 {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
+  font-size: 1rem;
 }
 
 .card .item a {
@@ -338,6 +340,7 @@ header .icon-wa a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 1rem;
 }
 
 .produk .bg-content .attack .list-hot .hot-item {
@@ -357,6 +360,7 @@ header .icon-wa a:hover {
 .produk .bg-content .attack .list-hot .hot-item h3 {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
+  font-size: 1rem;
 }
 
 .produk .bg-content .attack .list-hot .hot-item a {
@@ -552,6 +556,7 @@ header .icon-wa a:hover {
   max-width: 80rem;
   height: auto;
   margin: 3rem auto 0;
+  padding: 0 7%;
 }
 
 .vendor .ven-logo .log {

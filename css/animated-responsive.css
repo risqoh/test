@@ -61,6 +61,15 @@
   .hub-kami .row form {
     padding-top: 0;
   }
+
+  /* about responsive */
+  .flex-content .text {
+    padding: 0 7%;
+  }
+
+  .flex-content .about-image {
+    width: 80%;
+  }
 }
 
 /* Mobile Phone */
