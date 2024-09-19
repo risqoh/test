@@ -72,9 +72,13 @@ body {
 /* form kontak */
 
 .hub-kami {
-  margin: 8rem 0 2rem;
-  padding: 5rem 7%;
+  margin: 0 0 2rem;
+  padding: 0 7%;
   text-align: center;
+}
+
+.hub-kami h1 {
+  padding-top: 7rem;
 }
 
 .hub-kami .row {

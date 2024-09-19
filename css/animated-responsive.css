@@ -4,10 +4,6 @@
   html {
     font-size: 75%;
   }
-
-  .slider .list .item .detail {
-    flex-wrap: wrap;
-  }
 }
 
 /* tablet */
@@ -48,6 +44,10 @@
 
   header .icon-wa {
     left: 92%;
+  }
+
+  .slider .list .item .detail {
+    flex-wrap: wrap;
   }
 
   .hub-kami .row {
