@@ -258,6 +258,7 @@ header .icon-wa a:hover {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+  padding: 0.5rem 7%;
 }
 
 .card .item {
@@ -341,6 +342,7 @@ header .icon-wa a:hover {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+  padding: 0 7%;
 }
 
 .produk .bg-content .attack .list-hot .hot-item {
