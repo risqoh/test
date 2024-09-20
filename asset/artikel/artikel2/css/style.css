@@ -82,19 +82,25 @@ body {
   padding: 7rem 7%;
 }
 
+.art h2 {
+  text-align: center;
+  margin: 0 0 2rem;
+}
+
 .art .flex {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
-  max-width: 80rem;
+  max-width: 99vw;
   height: auto;
   align-items: center;
   margin: auto;
   gap: 2rem;
+  text-align: center;
 }
 
 .art .flex .item {
-  width: 50%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -103,9 +109,9 @@ body {
   object-fit: cover;
 }
 
-.art .flex .item h2 {
+/* .art .flex .item h2 {
   font-size: 2rem;
-}
+} */
 
 .art .flex .item p {
   font-size: 1.2rem;
